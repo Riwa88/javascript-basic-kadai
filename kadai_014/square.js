@@ -1,4 +1,5 @@
-const Squared = ($num) => {
-    console.log($num*$num);
+const Squared = (num) => {
+    return Math.pow(num, 2);
 }
-Squared(10);
+
+console.log(Squared(10));
